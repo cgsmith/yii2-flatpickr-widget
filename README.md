@@ -1,9 +1,10 @@
 Flatpickr JS Widget for Yii2
 ====================================
 
-[![Latest Version](https://img.shields.io/github/tag/cgsmith/yii2-flatpickr-widget.svg?style=flat-square&label=release)](https://github.com/2amigos/yii2-date-picker-widget/tags)
-[![Software License](https://img.shields.io/badge/license-BSD-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Total Downloads](https://img.shields.io/packagist/dt/cgsmith/yii2-flatpickr-widget.svg?style=flat-square)](https://packagist.org/packages/cgsmith/yii2-flatpickr-widget)
+[![Latest Stable Version](http://poser.pugx.org/cgsmith/yii2-flatpickr-widget/v)](https://packagist.org/packages/cgsmith/yii2-flatpickr-widget) 
+[![Total Downloads](http://poser.pugx.org/cgsmith/yii2-flatpickr-widget/downloads)](https://packagist.org/packages/cgsmith/yii2-flatpickr-widget) 
+[![Latest Unstable Version](http://poser.pugx.org/cgsmith/yii2-flatpickr-widget/v/unstable)](https://packagist.org/packages/cgsmith/yii2-flatpickr-widget) 
+[![License](http://poser.pugx.org/cgsmith/yii2-flatpickr-widget/license)](https://packagist.org/packages/cgsmith/yii2-flatpickr-widget) 
 
 
 Renders a [flatpickr Datepicker plugin](https://flatpickr.js.org/).
