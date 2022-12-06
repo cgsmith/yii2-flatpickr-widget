@@ -1,0 +1,42 @@
+{
+  "name": "cgsmith/yii2-flatpickr-widget",
+  "description": "flatpickr (DatePicker) widget for Yii2.",
+  "type": "yii2-extension",
+  "keywords": [
+    "cgsmith",
+    "yii2",
+    "yii 2",
+    "extension",
+    "widget",
+    "datepicker",
+    "flatpickr"
+  ],
+  "homepage": "https://github.com/cgsmith/yii2-flatpickr-widget",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Chris Smith",
+      "email": "sales@cgsmith.net",
+      "homepage": "https://cgsmith.net",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/cgsmith/yii2-flatpickr-widget/issues",
+    "source": "https://github.com/2amigos/yii2-flatpickr-widget"
+  },
+  "require": {
+  },
+  "require-dev": {
+  },
+  "autoload": {
+    "psr-4": {
+      "cgsmith\\flatpickr\\": "src"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
