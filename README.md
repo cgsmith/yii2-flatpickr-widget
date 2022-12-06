@@ -63,6 +63,13 @@ echo $form->field($model, 'date')->widget(
 ?>
 ```  
 
+#### Example
+
+> It's not a demo without a GIF
+
+![](https://media.giphy.com/media/0FqQ0sWALaeWSSdxyw/giphy.gif)
+
+
 Resources Information
 -------------------
 Please, check the [flatpicker site](https://flatpickr.js.org/options/) documentation for further information about its configuration options.
