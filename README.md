@@ -63,6 +63,13 @@ echo $form->field($model, 'date')->widget(
 ?>
 ```  
 
+#### Example
+
+> It's not a demo without a GIF
+
+![](https://media.giphy.com/media/0FqQ0sWALaeWSSdxyw/giphy.gif)
+
+
 
 ***Example of use on Gridview***
 You may need to adjust the filter to work with your form or search model but this is how it is working with a default
