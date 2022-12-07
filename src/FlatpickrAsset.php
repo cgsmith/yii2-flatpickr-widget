@@ -2,6 +2,8 @@
 
 namespace cgsmith\flatpickr;
 
+use yii\web\JqueryAsset;
+
 class FlatpickrAsset extends \yii\web\AssetBundle
 {
     public $js = [
@@ -10,5 +12,9 @@ class FlatpickrAsset extends \yii\web\AssetBundle
 
     public $css = [
         '//cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css',
+    ];
+
+    public $depends = [
+        JqueryAsset::class,
     ];
 }
