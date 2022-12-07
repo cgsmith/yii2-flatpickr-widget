@@ -63,6 +63,42 @@ echo $form->field($model, 'date')->widget(
 ?>
 ```  
 
+
+***Example of use on Gridview***
+You may need to adjust the filter to work with your form or search model but this is how it is working with a default
+Yii installation.
+
+```php
+<?php
+    echo GridView::widget([
+        'dataProvider' => $dataProvider,
+        'filterModel' => $searchModel,
+        'columns' => [
+            ['class' => 'yii\grid\SerialColumn'],
+            [
+                'attribute' => 'created_at',
+                'label' => 'Created At',
+                'format' => 'datetime',
+                'value' => 'created_at',
+                'filter' => \cgsmith\flatpickr\FlatpickrWidget::widget(
+                    [
+                        'model' => $searchModel,
+                        'attribute' => 'created_at',
+                        'flatpickrConfig' => [
+                                'enableTime' => false,
+                                'dateFormat' => 'U',
+                                'altInput' => true,
+                                'altFormat' => 'F j, Y',
+                        ],
+                    ]
+                )
+            ],
+            'updated_at:datetime',
+            // other columns and settings for gridview
+        ],
+    ]);
+```
+
 Resources Information
 -------------------
 Please, check the [flatpicker site](https://flatpickr.js.org/options/) documentation for further information about its configuration options.
