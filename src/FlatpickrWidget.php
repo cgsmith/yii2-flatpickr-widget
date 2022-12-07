@@ -40,7 +40,11 @@ class FlatpickrWidget extends InputWidget
 
     public function run()
     {
-        $this->options['class'] = trim($this->options['class'] . ' ' . 'date-' . $this->attribute);
+        if (isset($this->options['class'])) {
+            $this->options['class'] = trim($this->options['class'] . ' ' . 'date-' . $this->attribute);
+        } else {
+            $this->options['class'] = 'date-' . $this->attribute;
+        }
 
         $input = $this->hasModel()
             ? Html::activeTextInput($this->model, $this->attribute, $this->options)
