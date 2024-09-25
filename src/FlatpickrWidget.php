@@ -22,7 +22,7 @@ use yii\widgets\InputWidget;
  *
  * For more details and usage information on InputWidget, see the [guide article on forms](guide:input-forms).
  *
- * @author Chris Smith <chris@cgsmith.net>
+ * @author Chris Smith <cgsmith105@gmail.com>
  */
 class FlatpickrWidget extends InputWidget
 {
@@ -61,7 +61,7 @@ class FlatpickrWidget extends InputWidget
             $assetBundle->locale = $this->flatpickrConfig['locale'];
         }
         $view->registerJs('
-            // cgsmith-flatpickr-widget
+            // yii2-flatpickr-widget
             $(\'.date-' . $this->attribute.'\').flatpickr('
             . $flatpickrConfig .
             ')');

@@ -6,7 +6,11 @@ class FlatpickrLanguageAsset extends \yii\web\AssetBundle
 {
     public $sourcePath = '@npm/flatpickr';
 
-    public $locale;
+    /**
+     * List of available locales 
+     * @see https://flatpickr.js.org/localization/
+     */
+    public $locale = '';
 
     public $depends = [
         FlatpickrAsset::class,
@@ -14,7 +18,10 @@ class FlatpickrLanguageAsset extends \yii\web\AssetBundle
 
     public function registerAssetFiles($view)
     {
-        $this->js[] = 'dist/l10n/' . $this->locale . '.js';
+        if (!empty($this->locale)) {
+            $this->js[] = 'dist/l10n/' . $this->locale . '.js';
+        }
+
         parent::registerAssetFiles($view);
     }
 }

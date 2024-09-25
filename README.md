@@ -16,12 +16,12 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```bash
-$ composer require cgsmith/yii2-flatpickr-widget:~1.0
+$ composer require cgsmith/yii2-flatpickr-widget:~1.1
 ```
 or add
 
 ```json
-"cgsmith/yii2-flatpickr-widget": "~1.0"
+"cgsmith/yii2-flatpickr-widget": "~1.1"
 ```
 
 to the require section of your application's `composer.json` file.
@@ -58,7 +58,7 @@ echo $form->field($model, 'date')->widget(
         'dateFormat' => 'F j, Y H:i',
         'altInput' => true,
         'altFormat' => 'F j, Y',
-        'locale' => 'ru',
+        'locale' => 'ru', // optional
     ]
 ]);
 ?>
