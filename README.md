@@ -1,10 +1,10 @@
 Flatpickr JS Widget for Yii2
 ====================================
 
-[![Latest Stable Version](http://poser.pugx.org/cgsmith/yii2-flatpickr-widget/v)](https://packagist.org/packages/cgsmith/yii2-flatpickr-widget) 
-[![Total Downloads](http://poser.pugx.org/cgsmith/yii2-flatpickr-widget/downloads)](https://packagist.org/packages/cgsmith/yii2-flatpickr-widget) 
-[![Latest Unstable Version](http://poser.pugx.org/cgsmith/yii2-flatpickr-widget/v/unstable)](https://packagist.org/packages/cgsmith/yii2-flatpickr-widget) 
-[![License](http://poser.pugx.org/cgsmith/yii2-flatpickr-widget/license)](https://packagist.org/packages/cgsmith/yii2-flatpickr-widget) 
+[![Latest Stable Version](https://poser.pugx.org/cgsmith/yii2-flatpickr-widget/v)](https://packagist.org/packages/cgsmith/yii2-flatpickr-widget) 
+[![Total Downloads](https://poser.pugx.org/cgsmith/yii2-flatpickr-widget/downloads)](https://packagist.org/packages/cgsmith/yii2-flatpickr-widget) 
+[![Latest Unstable Version](https://poser.pugx.org/cgsmith/yii2-flatpickr-widget/v/unstable)](https://packagist.org/packages/cgsmith/yii2-flatpickr-widget) 
+[![License](https://poser.pugx.org/cgsmith/yii2-flatpickr-widget/license)](https://packagist.org/packages/cgsmith/yii2-flatpickr-widget) 
 
 
 Renders a [flatpickr Datepicker plugin](https://flatpickr.js.org/).
