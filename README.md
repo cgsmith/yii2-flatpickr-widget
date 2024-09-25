@@ -58,6 +58,7 @@ echo $form->field($model, 'date')->widget(
         'dateFormat' => 'F j, Y H:i',
         'altInput' => true,
         'altFormat' => 'F j, Y',
+        'locale' => 'ru',
     ]
 ]);
 ?>
