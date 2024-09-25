@@ -26,7 +26,14 @@
     "source": "https://github.com/2amigos/yii2-flatpickr-widget"
   },
   "require": {
+    "npm-asset/flatpickr": "^4.6.13"
   },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
   "require-dev": {
   },
   "autoload": {

@@ -56,6 +56,10 @@ class FlatpickrWidget extends InputWidget
 
         FlatpickrAsset::register($this->getView());
         $view = $this->getView();
+        if (isset($this->flatpickrConfig['locale'])) {
+            $assetBundle = FlatpickrLanguageAsset::register($view);
+            $assetBundle->locale = $this->flatpickrConfig['locale'];
+        }
         $view->registerJs('
             // cgsmith-flatpickr-widget
             $(\'.date-' . $this->attribute.'\').flatpickr('
